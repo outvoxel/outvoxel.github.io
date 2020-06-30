@@ -1,0 +1,23 @@
+@font-face {font-family: Ubuntu-Light; src:	url('Ubuntu-Light.ttf');}
+
+body {
+	font-family: Ubuntu-Light, sans-serif;
+	font-size: 1.2em;
+	color: WhiteSmoke;
+	background-image: url('face-site-landing - F5F5F5.png');
+	background-repeat: no-repeat;
+}
+
+a:link {
+	color: WhiteSmoke;
+	text-decoration: none;
+}
+a:visited {
+	color: WhiteSmoke
+}
+a:hover {
+	color: LightGrey;
+}
+a:active {
+	color: WhiteSmoke;
+}
