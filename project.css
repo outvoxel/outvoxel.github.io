@@ -6,8 +6,16 @@ body {
 	color: Black;
 }
 
-img {
+/*img {
 	object-fit: scale-down; max-width: 100%
+}*/
+
+.center {
+	object-fit: scale-down;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 a:link {
