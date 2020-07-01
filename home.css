@@ -8,6 +8,10 @@ body {
 	background-repeat: no-repeat;
 }
 
+p.project{
+	font-size: 1.5em;
+}
+
 a:link {
 	color: WhiteSmoke;
 	text-decoration: none;
