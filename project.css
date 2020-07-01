@@ -4,8 +4,10 @@ body {
 	font-family: Ubuntu-Light, sans-serif;
 	font-size: 1.2em;
 	color: Black;
-	background-image: url('Hex + Text.png');
-	background-repeat: no-repeat;
+}
+
+img {
+	object-fit: scale-down; max-width: 100%
 }
 
 a:link {
