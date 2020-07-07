@@ -1,32 +1,11 @@
 @font-face {font-family: Ubuntu-Light; src:	url('Ubuntu-Light.ttf');}
 
-/*@media (min-width: 300px) and (max-width: 768px) {
-  body {
-    background-image: url("face-site-landing - F5F5F5 - mobile.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #231f20;
-  }
-}
-@media (min-width: 769px) {
-  body {
-    background-image: url("face-site-landing - F5F5F5.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #231f20;
-  }
-}*/
-
 body { 
       animation: fadeInAnimation ease 3s; 
       animation-iteration-count: 1; 
       animation-fill-mode: forwards; 
 } 
+
 @keyframes fadeInAnimation { 
     0% { 
         opacity: 0; 
@@ -37,22 +16,18 @@ body {
 } 
 
 body {
-	font-family: Ubuntu-Light, sans-serif;
-	font-size: 1.2em;
-	color: WhiteSmoke;
+  background-color: #231f20;
+  background-image: url('images/Shy.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: right 100px bottom;
+  background-size: 50%
 }
 
 body {
-  background-color: #231f20;
-}
-
-.corner {
-  position: absolute;
-  right: 100px;
-  bottom: 0px;
-  object-fit: scale-down;
-  height: auto;
-  width: 50%;
+  font-family: Ubuntu-Light, sans-serif;
+  font-size: 1.2em;
+  color: WhiteSmoke;
 }
 
 p.project{
