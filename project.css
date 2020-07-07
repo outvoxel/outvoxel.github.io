@@ -4,6 +4,7 @@ body {
 	font-family: Ubuntu-Light, sans-serif;
 	font-size: 1.5em;
 	color: Black;
+	padding-left: 25px;
 }
 
 /*table {
@@ -15,7 +16,9 @@ th, td {
 }
 
 td {
-	padding-left: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
 }
 
 .center {
