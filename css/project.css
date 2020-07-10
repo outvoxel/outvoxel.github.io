@@ -22,12 +22,27 @@ td {
 	padding-left: 50px;
 }
 
-.center {
+img.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
 	object-fit: scale-down;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+
+img.center {
+	object-fit: scale-down;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+a.exit {
+	cursor: url('../images/X.png') 22 22, auto; /*22 22 serves to center the image on the cursor; if left out, the pointer will default to the top-left corner of the image.*/
 }
 
 a:link {
@@ -42,8 +57,4 @@ a:hover {
 }
 a:active {
 	color: Black;
-}
-
-.exit {
-	cursor: url('../images/X.png') 22 22, auto; /*22 22 serves to center the image on the cursor; if left out, the pointer will default to the top-left corner of the image.*/
 }
