@@ -1,4 +1,4 @@
-@font-face {font-family: Ubuntu-Light; src:	url('Ubuntu-Light.ttf');}
+@font-face {font-family: Ubuntu-Light; src:	url('../Ubuntu-Light.ttf');}
 
 body { 
       animation: fadeInAnimation ease 3s; 
@@ -10,8 +10,8 @@ body {
     0% { 
         opacity: 0; 
        } 
-       100% { 
-          opacity: 1; 
+    100% { 
+        opacity: 1; 
        } 
 } 
 
