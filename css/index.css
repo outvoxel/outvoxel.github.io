@@ -1,0 +1,64 @@
+body { 
+      animation: fadeInAnimation ease 3s; 
+      animation-iteration-count: 1; 
+      animation-fill-mode: forwards; 
+} 
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+       } 
+    100% { 
+        opacity: 1; 
+       } 
+} 
+
+body {
+  background-color: #231f20;
+
+  /*IMAGE DOES NOT FADE IN. REVISIT LATER*/
+
+/*  background-image: url('../images/Shy.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-position: right 100px bottom;
+  background-size: 50%*/
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  color: WhiteSmoke;
+  padding-left: 12px;
+}
+
+p.project{
+	font-size: 1.5em;
+  padding-left: 10px;
+}
+
+img.corner {
+
+  /*TEMPORARY FIX UNTIL FADE IN OF BACKGROUND IMG IS POSSIBLE*/
+
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+  object-fit: scale-down;
+  height: auto;
+  width: 50%;
+}
+
+a:link {
+	color: WhiteSmoke;
+	text-decoration: none;
+}
+a:visited {
+	color: WhiteSmoke
+}
+a:hover {
+	color: LightGrey;
+}
+a:active {
+	color: WhiteSmoke;
+}

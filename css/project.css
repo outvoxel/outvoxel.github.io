@@ -1,0 +1,58 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5em;
+	color: Black;
+	padding-left: 12px;
+}
+
+/*table {
+	width: 80%;
+} */
+
+th, td {
+	font-size: 	1em;
+	text-align: left;	
+}
+
+td {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+
+img.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
+	object-fit: scale-down;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+img.center {
+	object-fit: scale-down;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+a.exit {
+	cursor: url('../images/X.png') 22 22, auto; /*22 22 serves to center the image on the cursor; if left out, the pointer will default to the top-left corner of the image.*/
+}
+
+a:link {
+	color: Black;
+	text-decoration: none;
+}
+a:visited {
+	color: Black;
+}
+a:hover {
+	color: LightGrey;
+}
+a:active {
+	color: Black;
+}
