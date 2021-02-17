@@ -25,6 +25,20 @@ a.exit:active {
   color: Black;
 }
 
+a:link {
+  color: Black;
+  text-decoration: none;
+}
+a:visited {
+  color: Black;
+}
+a:hover {
+  color: LightGrey;
+}
+a:active {
+  color: Black;
+}
+
 a.world:link {
   color: #5651A5;
   text-decoration: none;
